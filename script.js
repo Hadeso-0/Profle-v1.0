@@ -21,22 +21,3 @@ function ViewContact() {
 function ViewAbt() {
   document.querySelector("#About").scrollIntoView({ behavior: "smooth" });
 }
-// var c1 = document.getElementsByClassName("c1")[0];
-// var c2 = document.getElementsByClassName("c2")[0];
-
-// c1.addEventListener("mouseenter", function( event ) {
-//   event.target.style.animationName = "spinr";
-// });
-// c1.addEventListener('mouseleave', e => {
-//   e.target.style.animationName = "spinl";
-//   console.log("c1-leave")
-// });
-// c2.addEventListener("mouseenter", function( event ) {
-//   event.target.style.animationName = "spinl";
-// });
-// c2.addEventListener('mouseleave', e => {
-//   e.target.style.animationName = "spinr";
-//   console.log("c2-leave")
-// });
-
-
