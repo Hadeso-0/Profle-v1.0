@@ -26,6 +26,10 @@ body::-webkit-scrollbar-thumb {
 body::-webkit-scrollbar-thumb:hover {
   background: #0fd4b4c0;
 }
+::selection{
+  background: transparent;
+  color: #038c75;
+}  
 /***********NAVIGATION BAR*************************/
 .navbar {
   grid-row-start: 1;
