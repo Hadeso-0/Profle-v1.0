@@ -26,10 +26,10 @@ body::-webkit-scrollbar-thumb {
 body::-webkit-scrollbar-thumb:hover {
   background: #0fd4b4c0;
 }
-::selection{
-  background: transparent;
+::selection {
   color: #038c75;
-}  
+  background: transparent;
+}
 /***********NAVIGATION BAR*************************/
 .navbar {
   grid-row-start: 1;
@@ -220,6 +220,10 @@ body::-webkit-scrollbar-thumb:hover {
   font-size: 8vh;
   color: #0ae2be;
   letter-spacing: 10pt;
+}
+.name::selection {
+  color: #000000;
+  background: transparent;
 }
 .Cont_head {
   margin: 0;
